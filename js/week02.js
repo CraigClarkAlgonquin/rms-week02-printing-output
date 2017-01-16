@@ -42,7 +42,7 @@ var numbers = [
 	Math.floor(Math.random() * (200 - 100) + 100) // this is 4 not 5
 ];
 
-alert(numbers[0] + " + " + numbers[4] + "= " + (numbers[0] + numbers[4]));
+//alert(numbers[0] + " + " + numbers[4] + " = " + (numbers[0] + numbers[4]));
 
 /* check for even or odd numbers
 % modulous is division with remainder
@@ -53,7 +53,7 @@ alert(numbers[0] + " + " + numbers[4] + "= " + (numbers[0] + numbers[4]));
 var mytotal = (numbers[0] + numbers[4]);
 
 if (mytotal % 2 == 1) {
-	alert(mytotal + " is an odd number.");
+	alert(numbers[0] + " + " + numbers[4] + " = " + mytotal + ".\n" + mytotal + " is an odd number.");
 } else {
-	alert(mytotal + " is an even number.");
-}
+	alert(numbers[0] + " + " + numbers[4] + " = " + mytotal + ".\n" + mytotal + " is an even number.");
+		}
