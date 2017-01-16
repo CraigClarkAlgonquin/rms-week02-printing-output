@@ -56,4 +56,4 @@ if (mytotal % 2 == 1) {
 	alert(numbers[0] + " + " + numbers[4] + " = " + mytotal + ".\n" + mytotal + " is an odd number.");
 } else {
 	alert(numbers[0] + " + " + numbers[4] + " = " + mytotal + ".\n" + mytotal + " is an even number.");
-		}
+}
